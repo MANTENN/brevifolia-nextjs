@@ -1,4 +1,15 @@
 ---
 label: Test
 hide_body: true
-fields: []
+fields:
+- name: test
+  type: text
+  config:
+    required: false
+  label: Test
+  description: Test
+- name: tests
+  type: include
+  config: {}
+  template: blog
+  label: Tests
