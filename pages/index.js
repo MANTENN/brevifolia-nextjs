@@ -15,7 +15,7 @@ const Index = props => {
     </Layout>
   )
 }
-
+ 
 export default Index
 
 export async function getStaticProps() {
